@@ -990,6 +990,7 @@
     <Compile Include="Areas\AdminPaneli\Controllers\EtiketlerController.cs" />
     <Compile Include="Areas\AdminPaneli\Controllers\KategorilerController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
+    <Compile Include="Controllers\DenemeController.cs" />
     <Compile Include="Controllers\HakkimizdaController.cs" />
     <Compile Include="Controllers\MakalelerController.cs" />
     <Compile Include="Global.asax.cs">
@@ -1198,6 +1199,7 @@
     <Content Include="Views\Default\Index.cshtml" />
     <Content Include="Views\Hakkimizda\Index.cshtml" />
     <Content Include="Views\Makaleler\KategoriListesi.cshtml" />
+    <Content Include="Views\Deneme\DenemeIndex.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
