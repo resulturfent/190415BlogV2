@@ -6,12 +6,11 @@ using System.Web.Mvc;
 
 namespace _190410_BlogV1.Controllers
 {
-    public class HakanController : Controller
+    public class yeniAslıController : Controller
     {
-        // GET: Hakan
+        // GET: yeniAslı
         public ActionResult Index()
         {
-            //Hakan Ocak
             return View();
         }
     }
