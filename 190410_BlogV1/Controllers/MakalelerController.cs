@@ -11,7 +11,7 @@ namespace _190410_BlogV1.Controllers
         //*****************************************************************
         Models.Bloghi304DBEntities1 db = new Models.Bloghi304DBEntities1();
         // GET: Makaleler
-        public ActionResult MakaleListesIndex()
+        public ActionResult MakaleListesiIndex()
         {
             return View();
         }
@@ -28,7 +28,7 @@ namespace _190410_BlogV1.Controllers
 
         public ActionResult YorumListesi(int id)
         {
-            var Yorumlar = DB.Yorumlar.Where(k => k.MakaleID == id).ToList();
+            var Yorumlar = db.Yorumlar.Where(k => k.MakaleID == id).ToList();
             return View(Yorumlar);
         }
 
