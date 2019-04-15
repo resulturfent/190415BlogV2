@@ -989,13 +989,13 @@
     <Compile Include="Areas\AdminPaneli\Controllers\AdminPaneliAnasayfaController.cs" />
     <Compile Include="Areas\AdminPaneli\Controllers\EtiketlerController.cs" />
     <Compile Include="Areas\AdminPaneli\Controllers\KategorilerController.cs" />
-    <Compile Include="Controllers\aslıController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
-    <Compile Include="Controllers\DenemeController.cs" />
+    <Compile Include="Controllers\OguzImrakBeyController.cs" />
     <Compile Include="Controllers\HakanController.cs" />
     <Compile Include="Controllers\HakkimizdaController.cs" />
     <Compile Include="Controllers\MakalelerController.cs" />
     <Compile Include="Controllers\xxxController.cs" />
+    <Compile Include="Controllers\yeniAslıController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -1217,6 +1217,7 @@
     <Folder Include="Areas\AdminPaneli\Models\" />
     <Folder Include="Views\aslı\" />
     <Folder Include="Views\xxx\" />
+    <Folder Include="Views\yeniAslı\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
