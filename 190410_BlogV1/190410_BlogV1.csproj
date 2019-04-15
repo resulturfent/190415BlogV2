@@ -995,6 +995,7 @@
     <Compile Include="Controllers\HakanController.cs" />
     <Compile Include="Controllers\HakkimizdaController.cs" />
     <Compile Include="Controllers\MakalelerController.cs" />
+    <Compile Include="Controllers\xxxController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -1202,6 +1203,8 @@
     <Content Include="Views\Hakkimizda\Index.cshtml" />
     <Content Include="Views\Makaleler\KategoriListesi.cshtml" />
     <Content Include="Views\Deneme\DenemeIndex.cshtml" />
+    <Content Include="Views\Makaleler\MakaleDetayIndex.cshtml" />
+    <Content Include="Views\Makaleler\YorumListesi.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1212,6 +1215,8 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\AdminPaneli\Models\" />
+    <Folder Include="Views\aslı\" />
+    <Folder Include="Views\xxx\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
