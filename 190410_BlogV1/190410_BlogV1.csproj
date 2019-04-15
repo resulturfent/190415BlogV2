@@ -934,6 +934,7 @@
     <Content Include="Areas\AdminPaneli\AdminLTE\plugins\timepicker\bootstrap-timepicker.min.js" />
     <Content Include="Areas\AdminPaneli\AdminLTE\rollup.config.js" />
     <Content Include="Areas\AdminPaneli\AdminLTE\starter.html" />
+    <Content Include="Controllers\Oguzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz\StyleSheet1.css" />
     <Content Include="Global.asax" />
     <Content Include="Models\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
