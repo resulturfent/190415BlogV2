@@ -9,19 +9,19 @@ namespace _190410_BlogV1.Controllers
     public class MakalelerController : Controller
     {
         //*****************************************************************
-        Models.Bloghi304DBEntities1 DB = new Models.Bloghi304DBEntities1();
+        Models.Bloghi304DBEntities1 db = new Models.Bloghi304DBEntities1();
         // GET: Makaleler
-        public ActionResult MakaleListesiIndex()
+        public ActionResult MakaleListesIndex()
         {
-            return View(DB.Makaleler.ToList());
+            return View();
         }
 
         public ActionResult MakaleDetayIndex(int id)
         {
             //var makaleId = RouteData.Values["id"];
-            var makaleDetay = DB.Makaleler.Where(m => m.MakalelerID == id).FirstOrDefault();
+            var makaleDetay = db.Makaleler.Where(m => m.MakalelerID == id).FirstOrDefault();
 
-            ViewBag.Yazar = DB.Uyeler.Where(y => y.UyelerID == makaleDetay.YazarID && y.YazarMi == true).FirstOrDefault().Adi;
+            ViewBag.Yazar = db.Uyeler.Where(y => y.UyelerID == makaleDetay.YazarID && y.Yazarmi == true).FirstOrDefault().Adi;
             //ViewBag.Resim = DB.Resimler.Where(r => r.MakaleID == id).FirstOrDefault().BuyukBoyut;
             return View(makaleDetay);
         }
@@ -40,7 +40,7 @@ namespace _190410_BlogV1.Controllers
         public ActionResult KategoriListesi()
         {
 
-            return View(DB.Kategoriler.ToList());
+            return View(db.Kategoriler.ToList());
         }
     }
 }
