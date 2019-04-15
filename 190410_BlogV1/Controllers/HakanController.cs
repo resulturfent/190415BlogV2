@@ -11,6 +11,7 @@ namespace _190410_BlogV1.Controllers
         // GET: Hakan
         public ActionResult Index()
         {
+            //Hakan Ocak
             return View();
         }
     }
