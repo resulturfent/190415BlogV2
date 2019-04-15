@@ -989,8 +989,10 @@
     <Compile Include="Areas\AdminPaneli\Controllers\AdminPaneliAnasayfaController.cs" />
     <Compile Include="Areas\AdminPaneli\Controllers\EtiketlerController.cs" />
     <Compile Include="Areas\AdminPaneli\Controllers\KategorilerController.cs" />
+    <Compile Include="Controllers\aslıController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\DenemeController.cs" />
+    <Compile Include="Controllers\HakanController.cs" />
     <Compile Include="Controllers\HakkimizdaController.cs" />
     <Compile Include="Controllers\MakalelerController.cs" />
     <Compile Include="Controllers\xxxController.cs" />
